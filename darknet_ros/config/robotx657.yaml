@@ -1,0 +1,20 @@
+yolo_model:
+
+  config_file:
+    name: robotx657.cfg
+  weight_file:
+    name: robotx657.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - yellow_totem
+      - black_totem
+      - blue_totem
+      - green_totem
+      - red_totem
+      - black_ball_bouys
+      - surmark46104
+      - surmark950400
+      - surmark950410
+      - Dock

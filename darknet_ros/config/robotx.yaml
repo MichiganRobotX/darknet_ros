@@ -1,0 +1,17 @@
+yolo_model:
+
+  config_file:
+    name: robotx.cfg
+  weight_file:
+    name: robotx.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - Red_Cylindrical_Buoy
+      - Green_Cylindrical_Buoy
+      - White_Cylindrical_Buoy
+      - Blue_Cylindrical_Buoy
+      - Marker_Buoy
+      - Black_Obstacle_Buoy
+      - Dock
